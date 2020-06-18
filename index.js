@@ -14,7 +14,7 @@ var items = {itemName:"Bag", itemPrice:"Math.random() + Math.floor(10.10)"}
 }
 
 function viewCart() {
-if(items === 0) {
+if(items < 1) {
 return "Your shopping cart is empty."
 }
 var items = [{ itemName:"bananas", itemPrice: 17 }, { itemName:"pancake batter",itemPrice: 5 }, { itemName:"eggs", itemPrice: 49 }]
