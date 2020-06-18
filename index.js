@@ -14,7 +14,7 @@ var items = {itemName:"Bag", itemPrice:"Math.random() + Math.floor(10.10)"}
 }
 
 function viewCart() {
-  // write your code here
+ [ { itemName:"bananas", itemPrice: 17 }, { itemName:"pancake batter",itemPrice: 5 }, { itemName:"eggs", itemPrice: 49 }]
 }
 
 function total() {
