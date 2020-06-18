@@ -9,7 +9,7 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(bag) {
+function addToCart(Bag) {
 var items = {itemName:"Bag", itemPrice:"Math.random() + Math.floor(10.10)"}
 }
 
