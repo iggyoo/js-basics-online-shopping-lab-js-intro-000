@@ -14,7 +14,10 @@ var items = {itemName:"Bag", itemPrice:"Math.random() + Math.floor(10.10)"}
 }
 
 function viewCart() {
- [ { itemName:"bananas", itemPrice: 17 }, { itemName:"pancake batter",itemPrice: 5 }, { itemName:"eggs", itemPrice: 49 }]
+if(items === 0) {
+return "Your shopping cart is empty."
+}
+var items = [{ itemName:"bananas", itemPrice: 17 }, { itemName:"pancake batter",itemPrice: 5 }, { itemName:"eggs", itemPrice: 49 }]
 }
 
 function total() {
